@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/image/panels.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/panels.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -290,7 +290,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/image/meeting.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/meeting.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -336,7 +336,7 @@ h3{
 .sub-header{
     height: 70vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/image/meeting.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/meeting.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -377,7 +377,7 @@ padding-bottom: 50px;
 .course-header{
     height: 70vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/image/students.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/students.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -388,7 +388,7 @@ padding-bottom: 50px;
 .blog-header{
     height: 70vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/image/blog.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/blog.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -464,7 +464,7 @@ padding: 60px 0;
 .contact-header{
     height: 70vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(/image/contact.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.1)),url(image/contact.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
