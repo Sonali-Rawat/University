@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav><a href="index.html"><img src="/image/logo.png" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+      <h1>About Us</h1>
+
+    </section>
+
+<!-- About  us-content-->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero saepe aperiam sunt assumenda quaerat incidunt eligendi, asperiores optio illo hic voluptatum. Libero non quisquam cumque, inventore harum enim. Laboriosam perspiciatis cum neque eos quos quod illo ipsa quidem dolore vitae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, consequuntur.</p>
+            <a href="" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="/image/meeting.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus  Nam doloribus optio omnis libero sunt laboriosam repudiandae, recusandae <br>uatur, aspernatur architecto  Nam doloribus praesentium?</p>
+    <div class="icons">
+        <i class="fa fa-brands fa-facebook"></i>
+        <i class="fa fa-brands fa-twitter"></i>
+        <i class="fa fa-brands fa-instagram"></i>
+        <i class="fa fa-brands fa-linkedin"></i>
+     
+    </div>
+<p>Made with ❤️ by college student</p>
+</section>
+
+
+
+
+<!-- Javascript for menu. -->
+
+    <script>
+
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+
+
+</html>
